@@ -1,17 +1,22 @@
-# export-universal-.URL-link-file-from-Safari-on-macOS-
+# export-LINKFILE.url-from-Safari-on-macOS
 macOS service allowing the creation of .url links from safari
 
 - - - - - - -
 
+## Description
 I created a small a macOS Safari service. What it does is taking the current tabs url, domain and name and saving it to a `$name ($domain).url`. 
 
-It features the logic not to overwrite existing files, if the resulting name is the same, but the included url would be different. (It adds a number [starting from 2] to the file instead.)
+It features the logic not to overwrite existing files, if the resulting name is the same, but the included url would be different, but adds a number (starting from 2) to the filename instead.
 
 As you can assign custom shortcuts to services I choose `ctrl s`.
 
+## Download
+Download the file from [releases](https://github.com/Rastafabisch/export-LINKFILE.url-from-Safari-on-macOS/releases) and move, once extracted to `~/Library/Services`.
+
+## Additional Information
 This can be easily adopted to other macOS browsers if they feature Automator support, but would require additional logic, if they don't. Feel free to tinker around. 
 
-As of now ([presumably] macOS 10.4 to macOS 11.2.3) the service works fine.
+As of now (*presumably* macOS 10.4 to macOS 11.2.3) the service works fine.
 
 The "magic" is done by executing a small shell script after getting the current tabs URL using a Automator script.
 ```
