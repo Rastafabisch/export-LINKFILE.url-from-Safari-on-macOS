@@ -4,7 +4,7 @@ macOS service allowing the creation of .url links from safari
 - - - - - - -
 
 ## Description
-I created a small a macOS Safari service. What it does is taking the current tabs url, domain and name and saving it as `$name ($domain).url` under `~/Downloads`. (It is based on [hectorpal](https://superuser.com/users/43193/hectorpal)'s bach script from [superuser](https://superuser.com/a/1092686). Thank you for the inspiraton!)
+I created a small a macOS Safari service. What it does is taking the current tabs url, domain and name and saving it as `$name ($domain).url` under `~/Downloads`. (It is based on [hectorpal](https://superuser.com/users/43193/hectorpal)'s bash script from [superuser](https://superuser.com/a/1092686). Thank you for the inspiraton!)
 
 It features the logic not to overwrite existing files, if the resulting name is the same, but the included url would be different, but adds a number (starting from 2) to the filename instead.
 
