@@ -13,7 +13,7 @@ This can be easily adopted to other macOS browsers if they feature Automator sup
 
 As of now ([presumably] macOS 10.4 to macOS 11.2.3) the service works fine.
 
-The "magic" is don't executing a shell script after getting the current tabs URL using a Automator script.
+The "magic" is done by executing a small shell script after getting the current tabs URL using a Automator script.
 ```
 #!/bin/bash
 url=$@
