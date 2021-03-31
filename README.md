@@ -13,6 +13,9 @@ As you can assign custom shortcuts to services I choose `ctrl s`.
 ## Download
 Download the file from [releases](https://github.com/Rastafabisch/export-LINKFILE.url-from-Safari-on-macOS/releases) and move, once extracted to `~/Library/Services`.
 
+## Usage
+In Safari you will find the service under `Safari -> Services -> domain.url` in the menubar.
+
 ## Additional Information
 This can be easily adopted to other macOS browsers if they feature Automator support, but would require additional logic, if they don't. Feel free to tinker around. 
 
